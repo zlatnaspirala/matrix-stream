@@ -1,0 +1,24 @@
+{
+  "name": "matrix-stream",
+  "version": "1.0.0",
+  "description": "It is a client part for OV/Kurento services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zlatnaspirala/matrix-stream.git"
+  },
+  "keywords": [
+    "openvidu",
+    "kurento",
+    "matrix-stream"
+  ],
+  "author": "Nikola Lukic zlatnaspirala",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zlatnaspirala/matrix-stream/issues"
+  },
+  "homepage": "https://github.com/zlatnaspirala/matrix-stream#readme"
+}
