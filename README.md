@@ -9,30 +9,40 @@
 ## Reasons
 
 - Kurento is very stable media server.In old RTCMulti first lander on page take role of host
-  and others aer guests. Kurento handle session indipendent this is usefull for
+  and others are guests. Kurento handle session indipendent, this is usefull for
   disconnecting/reconnecting problematic situation.
 
-## How to use it
+## Server middleware part
 
-  Under ./web folder
-  I use module type of script without building.
+Before this you need `local` or `VPS 4core` min computer with
+openviduServer/Kurento installed and started.
+This is OV middleware server with web server on http2 protocol.
 
-  The smart way to use this lib is to use CustomEvents.
-	Already integrated (buildin):
+I will use it in all my projects.
+Already implemented intro:
 
-	`onConnectionCreated`
+- Matrix-engine
 
-  - How to use it
-	```js
-	addEventListener('onConnectionCreated', (event) => {
-		console.log(event)
-	})
-	```
+## How to use it [from client]
 
+Under `./web` folder
+I use module type of script without building.
+
+The smart way to use this lib is to use CustomEvents.
+Already integrated (buildin):
+
+  `onConnectionCreated`
+
+- How to use it
+  ```js
+  addEventListener("onConnectionCreated", event => {
+    console.log(event);
+  });
+  ```
 
 ## Next features
- - add compile to text/plane js
- - add to npm register add package and index.js
+
+- Test with clients...
 
 ## Credits & Licence
 
