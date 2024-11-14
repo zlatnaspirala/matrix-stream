@@ -1,0 +1,28 @@
+{
+  "name": "kure-server-middleware",
+  "version": "1.0.0",
+  "description": "Based on openvidu-recording-node 2.2.0. Middleware Server.",
+  "main": "server.js",
+  "scripts": {
+    "test": "ng test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenVidu/openvidu-tutorials.git"
+  },
+  "author": "zlatnaspirala@gmail.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/OpenVidu/openvidu-tutorials/issues"
+  },
+  "homepage": "https://github.com/OpenVidu/openvidu-tutorials#readme",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "4.17.1",
+    "openvidu-node-client": "2.20.0",
+    "spdy": "^4.0.2",
+    "websocket": "^1.0.31"
+  }
+}

@@ -56,7 +56,6 @@ let catchHacker = {
 			if(delta > 18) {
 				console.log('RISK LEVEL')
 			}
-
 		} else {
 			console.log('NORMAL SCREEN')
 		}
@@ -82,12 +81,9 @@ let catchHacker = {
 				console.log('RISK +', event)
 			}
 		});
-
 		byId('test').addEventListener('click', () => {
 			catchHacker.testBT()
 		})
-
-
 	},
 
 	detectKEY: (e) => {
